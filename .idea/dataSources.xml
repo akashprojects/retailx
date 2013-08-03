@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="866369607">
+    <data-source source="LOCAL" name="retaix" product="PostgreSQL" version="9.2.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.2 JDBC4 (build 1003)" uuid="d20c5b3b-86cc-418b-bc90-acb072ae0d37">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:retailx</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dff8dfc5dfc6dfdedfcbdf9bdf98df99</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Desktop/soft/Exteranl Jars/postgresql-9.2-1003.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

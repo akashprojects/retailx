@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="jr">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/soft/Jenny Source/jr.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/soft/Jenny Source/jr.jar!/test/unit" />
+      <root url="jar://$USER_HOME$/Desktop/soft/Jenny Source/jr.jar!/test/non_regression/postgres_spatial/src" />
+      <root url="jar://$USER_HOME$/Desktop/soft/Jenny Source/jr.jar!/test/non_regression/sybase/src" />
+      <root url="jar://$USER_HOME$/Desktop/soft/Jenny Source/jr.jar!/test/non_regression/oracle_spatial/src" />
+      <root url="jar://$USER_HOME$/Desktop/soft/Jenny Source/jr.jar!/test/non_regression/sybase_spatial/src" />
+      <root url="jar://$USER_HOME$/Desktop/soft/Jenny Source/jr.jar!/test/non_regression/sqlserver/src" />
+      <root url="jar://$USER_HOME$/Desktop/soft/Jenny Source/jr.jar!/test/non_regression/postgres/src" />
+      <root url="jar://$USER_HOME$/Desktop/soft/Jenny Source/jr.jar!/test/non_regression/oracle/src" />
+      <root url="jar://$USER_HOME$/Desktop/soft/Jenny Source/jr.jar!/test/non_regression/mysql/gen-src" />
+      <root url="jar://$USER_HOME$/Desktop/soft/Jenny Source/jr.jar!/test/non_regression/mysql/src" />
+      <root url="jar://$USER_HOME$/Desktop/soft/Jenny Source/jr.jar!/test/function" />
+      <root url="jar://$USER_HOME$/Desktop/soft/Jenny Source/jr.jar!/src" />
+    </SOURCES>
+  </library>
+</component>

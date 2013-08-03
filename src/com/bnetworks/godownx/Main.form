@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.bnetworks.godownx.Main">
+  <grid id="27dc6" binding="WareHouseForm" layout-manager="FormLayout">
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:8dlu:noGrow"/>
+    <rowspec value="center:28px:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:6dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="center:160px:grow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="top:18dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:max(d;10px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:119px:noGrow"/>
+    <colspec value="left:129dlu:noGrow"/>
+    <colspec value="left:102dlu:noGrow"/>
+    <colspec value="left:24dlu:noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <constraints>
+      <xy x="20" y="21" width="547" height="545"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+      <font name="Verdana" size="12" style="0"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="1038b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Verdana" size="12" style="0"/>
+          <labelFor value="5d386"/>
+          <text value="Product name:"/>
+        </properties>
+      </component>
+      <component id="76f3e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Verdana" size="12" style="0"/>
+          <labelFor value="5d386"/>
+          <text value="Units per Box:"/>
+        </properties>
+      </component>
+      <component id="5d386" class="javax.swing.JComboBox" binding="productsComboBox" custom-create="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <editable value="true"/>
+          <enabled value="true"/>
+          <font name="Verdana" size="12" style="0"/>
+          <minimumSize width="100" height="23"/>
+          <preferredSize width="200" height="23"/>
+        </properties>
+      </component>
+      <component id="5d5ce" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Verdana" size="12" style="0"/>
+          <text value="Product Stock Logs"/>
+        </properties>
+      </component>
+      <scrollpane id="b600b">
+        <constraints>
+          <grid row="17" column="2" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Verdana" size="12" style="0"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4dd7a" class="javax.swing.JTable" binding="productStockJTable">
+            <constraints/>
+            <properties>
+              <autoCreateRowSorter value="false"/>
+              <enabled value="true"/>
+              <font name="Verdana" size="12" style="0"/>
+              <updateSelectionOnSort value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="1193e" layout-manager="FormLayout">
+        <rowspec value="center:27px:noGrow"/>
+        <rowspec value="top:5dlu:noGrow"/>
+        <rowspec value="center:21px:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:d:grow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:d:grow"/>
+        <colspec value="fill:max(d;4px):noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:69px:noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:75px:noGrow"/>
+        <colspec value="fill:max(d;4px):noGrow"/>
+        <colspec value="fill:max(d;4px):noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:max(d;4px):noGrow"/>
+        <colspec value="left:187px:noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="left:81dlu:noGrow"/>
+        <colspec value="left:11dlu:noGrow"/>
+        <colspec value="fill:14px:noGrow"/>
+        <colspec value="fill:39px:noGrow"/>
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms top="5" left="0" bottom="0" right="5"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Verdana" size="12" style="0"/>
+        </properties>
+        <border type="etched" title="Product Stock Details"/>
+        <children>
+          <component id="16232" class="javax.swing.JRadioButton" binding="noStockChangeJRadio">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="155" height="48"/>
+              </grid>
+              <forms/>
+            </constraints>
+            <properties>
+              <actionCommand value="NO_CHANGE"/>
+              <enabled value="true"/>
+              <font name="Verdana" size="12" style="0"/>
+              <selected value="true"/>
+              <text value="No Stock Change"/>
+            </properties>
+          </component>
+          <component id="785b4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="4" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="46" height="19"/>
+              </grid>
+              <forms top="0" left="5" bottom="0" right="0" defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <font name="Verdana" size="12" style="0"/>
+              <text value="Quantity:"/>
+            </properties>
+          </component>
+          <component id="cb4f3" class="javax.swing.JRadioButton" binding="addStockJRadio">
+            <constraints>
+              <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="125" height="48"/>
+              </grid>
+              <forms/>
+            </constraints>
+            <properties>
+              <actionCommand value="ADD_STOCK"/>
+              <enabled value="true"/>
+              <font name="Verdana" size="12" style="0"/>
+              <text value="Add Stock"/>
+            </properties>
+          </component>
+          <component id="17279" class="javax.swing.JRadioButton" binding="removeStockJRadio">
+            <constraints>
+              <grid row="0" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="25" height="48"/>
+              </grid>
+              <forms/>
+            </constraints>
+            <properties>
+              <actionCommand value="REMOVE_STOCK"/>
+              <enabled value="true"/>
+              <font name="Verdana" size="12" style="0"/>
+              <text value="Remove Stock"/>
+            </properties>
+          </component>
+          <component id="fbc17" class="javax.swing.JTextField" binding="stockQuantityJTextField">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="155" height="19"/>
+              </grid>
+              <forms/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <font name="Verdana" size="12" style="0"/>
+            </properties>
+          </component>
+          <component id="1853e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="125" height="19"/>
+              </grid>
+              <forms/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <font name="Verdana" size="12" style="0"/>
+              <text value="Units (box size * quantity ) :"/>
+            </properties>
+          </component>
+          <component id="a9c90" class="javax.swing.JTextField" binding="productUnits">
+            <constraints>
+              <grid row="2" column="10" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="19"/>
+              </grid>
+              <forms top="0" left="0" bottom="0" right="10" defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <enabled value="false"/>
+              <font name="Verdana" size="12" style="0"/>
+            </properties>
+          </component>
+          <component id="99268" class="javax.swing.JTextArea" binding="stockComment">
+            <constraints>
+              <grid row="6" column="2" row-span="4" col-span="10" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <forms top="0" left="0" bottom="0" right="10" defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <rows value="4"/>
+            </properties>
+          </component>
+          <component id="4012a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms top="2" left="5" bottom="0" right="0"/>
+            </constraints>
+            <properties>
+              <font name="Verdana" size="12" style="0"/>
+              <text value="Commments:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="39cdf" class="javax.swing.JTextField" binding="unitsPerBoxJTextField">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Verdana" size="12" style="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="11428" class="javax.swing.JButton" binding="saveProductJButton">
+        <constraints>
+          <grid row="21" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Verdana" size="12" style="0"/>
+          <text value="&amp;Save"/>
+        </properties>
+      </component>
+      <component id="913c7" class="javax.swing.JLabel" binding="renamingStock">
+        <constraints>
+          <grid row="20" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <font name="Verdana" size="12" style="1"/>
+          <text value="na"/>
+        </properties>
+      </component>
+      <component id="fde42" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="20" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <font name="Verdana" size="12" style="0"/>
+          <text value="Product Stocks Left:  "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="16232"/>
+      <member id="cb4f3"/>
+      <member id="17279"/>
+    </group>
+  </buttonGroups>
+</form>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="jgoodies-common-1.6">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-common-1.6.0" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-common-1.6.0/docs/api" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-common-1.6.0" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-common-1.6.0" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-common-1.6.0" recursive="false" type="SOURCES" />
+  </library>
+</component>

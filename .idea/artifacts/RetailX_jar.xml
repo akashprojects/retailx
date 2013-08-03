@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="RetailX:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RetailX_jar</output-path>
+    <root id="archive" name="RetailX.jar">
+      <element id="module-output" name="RetailX" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-forms-1.7.1/jgoodies-forms-1.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-forms-1.7.1/jgoodies-forms-1.7.1-tests.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-forms-1.7.1/jgoodies-forms-1.7.1-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-forms-1.7.1/jgoodies-forms-1.7.1-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-common-1.6.0/jgoodies-common-1.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-common-1.6.0/jgoodies-common-1.6.0-tests.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-common-1.6.0/jgoodies-common-1.6.0-javadoc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-common-1.6.0/jgoodies-common-1.6.0-sources.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/soft/Exteranl Jars/postgresql-9.2-1003.jdbc4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/soft/Jenny Source/jr.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

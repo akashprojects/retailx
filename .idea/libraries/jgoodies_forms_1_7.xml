@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="jgoodies-forms-1.7">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-forms-1.7.1" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-forms-1.7.1/docs/api" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-forms-1.7.1" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-forms-1.7.1" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Desktop/soft/Exteranl Jars/jgoodies-forms-1.7.1" recursive="false" type="SOURCES" />
+  </library>
+</component>
